@@ -1,0 +1,60 @@
+.header {
+  margin-top: 3.75rem;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 18%;
+  font-size: 1.25rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 6.25rem;
+  font-style: italic;
+}
+
+.headerImg {
+  width: 100%;
+  height: 31.25rem;
+  margin-top: 3rem;
+  object-fit: cover;
+}
+@media screen and (max-width: 767px) {
+  .header {
+    margin-top: 1rem;
+  }
+  .headerTitleSm {
+    top: 10%;
+  }
+  .headerTitleLg {
+    top: 12%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .headerTitleSm {
+    top: 12%;
+  }
+  .headerTitleLg {
+    top: 14%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .headerTitleSm {
+    top: 13%;
+  }
+  .headerTitleLg {
+    top: 15%;
+  }
+}

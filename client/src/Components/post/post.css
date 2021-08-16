@@ -1,0 +1,67 @@
+.post {
+  width: 40%;
+  margin: 0 25px 40px 25px;
+}
+
+.postImg {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.postCat {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  color: #ffffff;
+  line-height: 1.25rem;
+  font-weight: 700;
+  margin-top: 0.75rem;
+  margin-right: 0.625rem;
+  cursor: pointer;
+}
+
+.postTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.postDate {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.8125rem;
+  color: #ffffff;
+  margin-top: 0.8125rem;
+}
+
+.postDesc {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.875rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+@media screen and (max-width: 767px) {
+  .post {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .post {
+    width: 90%;
+  }
+}

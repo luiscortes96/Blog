@@ -1,0 +1,61 @@
+.register {
+  height: calc(100vh - 3.125rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 242, 96, 0.8), rgba(5, 117, 230, 0.5)),
+    url(https://images.pexels.com/photos/5926386/pexels-photo-5926386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=500);
+  background-size: cover;
+}
+.registerTitle {
+  font-size: 3.125rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.registerForm {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 35vw;
+}
+
+.registerForm > label {
+  margin: 0.625rem 0;
+  font-family: "Roboto", sans-serif;
+  color: #201c29;
+  font-weight: 600;
+}
+
+.registerInput {
+  padding: 0.625rem;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.registerButton {
+  margin-top: 1.25rem;
+  cursor: pointer;
+  background-color: #5e5e5e;
+  border: none;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 0.625rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 3.75rem;
+  right: 1.25rem;
+  cursor: pointer;
+  border: none;
+  background-color: #ff7a18;
+  color: #ffffff;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,85 @@
+.sidebar {
+  flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.125rem;
+}
+@media screen and (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sidebar {
+    flex: 4;
+  }
+}
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarTitle {
+  margin: 0.625rem;
+  padding: 0.3125rem;
+  width: 80%;
+  border-top: 1px solid #ff7a18;
+  border-bottom: 1px solid #ff7a18;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #000;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.sidebarItem > img {
+  margin-top: 1rem;
+  width: 80%;
+}
+
+.sidebarItem > p {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 80%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.siderbarList {
+  list-style: none;
+  margin-bottom: 1.875rem;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 0.75rem;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+
+.sidebarSocial {
+  margin-top: 0.75rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarIcon {
+  font-size: 1rem;
+  margin-left: 0.625rem;
+  color: #000;
+  cursor: pointer;
+}

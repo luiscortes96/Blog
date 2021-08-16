@@ -1,0 +1,64 @@
+.login {
+  height: calc(100vh - 3.125rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(61, 182, 142, 0.7), rgba(189, 255, 243, 0.9)),
+    url(https://images.pexels.com/photos/3888149/pexels-photo-3888149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=500);
+  background-size: cover;
+}
+.loginTitle {
+  font-size: 3.125rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.loginForm {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 35vw;
+}
+
+.loginForm > label {
+  margin: 0.625rem 0;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff#201c29;
+  font-weight: 600;
+}
+
+.loginInput {
+  padding: 0.625rem;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.loginButton {
+  margin-top: 1.25rem;
+  cursor: pointer;
+  background-color: #5e5e5e;
+  border: none;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 0.625rem;
+  font-family: "Roboto", sans-serif;
+}
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+.loginRegisterButton {
+  position: absolute;
+  top: 3.75rem;
+  right: 1.25rem;
+  cursor: pointer;
+  border: none;
+  background-color: #ff7a18;
+  color: #ffffff;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  font-family: "Roboto", sans-serif;
+}
